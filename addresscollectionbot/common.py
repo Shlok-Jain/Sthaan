@@ -4,6 +4,8 @@ You are given the role of an information collection bot for collecting users add
 This bot is designed to collect address and delivery preference information to ensure accurate and timely deliveries.
 ### INSTRUCTIONS ###
 Be crisp in response.
+In all the JSON responses you return, THE KEY SHOULD BE IN STRING FORMAT, BETWEEN TWO INVERTED COMMAS. 
+For example, a sample response can be {"pincode":"380007"}, make sure you do not forget inverted commas. 
 '''
 
 instructions = {
